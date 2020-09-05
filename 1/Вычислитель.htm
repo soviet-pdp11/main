@@ -1,0 +1,548 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+	<head>
+	<title>Вычислитель</title>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+	<meta name='yandex-verification' content='55ac0ac91bc427aa' />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=4" />
+
+	<meta name="Description" content=" Технический прогресс неумолим. Уходят в прошлое огромные машинные залы, вычислительные комплексы в десятки, а то и в сотни раз уменьшаются в размерах, тёплый свет вакуумных ламп  
+сменяется на холодный, цифровых индикаторов. Старые машины обречены доживать свой век в тёмных цехах, покрываясь..." />	<meta name="Keywords" content="ес эвм, авк-33, вычислительная машина, аппаратура" />	
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" id="dynamic-favicon1"/>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" id="dynamic-favicon2"/>
+
+	<link rel="apple-touch-icon" href="/img/touch-icon-iphone.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="/img/touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="/img/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="/img/touch-icon-ipad-retina.png" />
+
+	<link rel="yandex-tableau-widget" href="/img/yatablo/manifest.json" />
+
+
+	<meta property="og:image" content="http://ipic.su/img/img7/fs/123.1599247432.jpg" />
+	<link rel="image_src" href="http://ipic.su/img/img7/fs/123.1599247432.jpg" />
+	<link rel="canonical" href="https://urban3p.ru/blogs/44765"/>
+	<link rel="stylesheet" href="/css/styl/common.css?version=161" type="text/css" />
+	<script type="text/javascript" src="/js/common.js?v=4"></script>
+	
+
+			<script type="text/javascript">
+	if((self.parent && !(self.parent===self)) && (self.parent.frames.length!=0)) self.parent.location=document.location;
+	var NOW = new Date(1599290991000);
+	</script>
+	
+<script type="text/javascript" charset="UTF-8">
+/* <![CDATA[ */
+try { if (undefined == xajax.config) xajax.config = {}; } catch (e) { xajax = {}; xajax.config = {}; };
+xajax.config.requestURI = "https://urban3p.ru/blogs/44765";
+xajax.config.statusMessages = false;
+xajax.config.waitCursor = true;
+xajax.config.version = "xajax 0.5";
+xajax.config.legacy = false;
+xajax.config.defaultMode = "asynchronous";
+xajax.config.defaultMethod = "POST";
+/* ]]> */
+</script>
+<script type="text/javascript" src="/js/xajax_js/xajax_core.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+/* <![CDATA[ */
+window.setTimeout(
+ function() {
+  var scriptExists = false;
+  try { if (xajax.isLoaded) scriptExists = true; }
+  catch (e) {}
+  if (!scriptExists) {
+   alert("Error: the xajax Javascript component could not be included. Perhaps the URL is incorrect?\nURL: /js/xajax_js/xajax_core.js");
+  }
+ }, 2000);
+/* ]]> */
+</script>
+
+<script type='text/javascript' charset='UTF-8'>
+/* <![CDATA[ */
+xajax_getCommentVoters = function() { return xajax.request( { xjxfun: 'getCommentVoters' }, { parameters: arguments } ); };
+xajax_addBookmark = function() { return xajax.request( { xjxfun: 'addBookmark' }, { parameters: arguments } ); };
+xajax_previewComment = function() { return xajax.request( { xjxfun: 'previewComment' }, { parameters: arguments } ); };
+xajax_writeComment = function() { return xajax.request( { xjxfun: 'writeComment' }, { parameters: arguments } ); };
+xajax_getCommentForEdit = function() { return xajax.request( { xjxfun: 'getCommentForEdit' }, { parameters: arguments } ); };
+xajax_delete = function() { return xajax.request( { xjxfun: 'delete' }, { parameters: arguments } ); };
+xajax_getComments = function() { return xajax.request( { xjxfun: 'getComments' }, { parameters: arguments } ); };
+xajax_commentVoting = function() { return xajax.request( { xjxfun: 'commentVoting' }, { parameters: arguments } ); };
+xajax_voting = function() { return xajax.request( { xjxfun: 'voting' }, { parameters: arguments } ); };
+/* ]]> */
+</script>
+</head>
+	<body >
+		
+<div id="top" class="top">
+	<div id="top-container" class="topContainer top-container">
+				<div class="logout">
+			<a class="butSmall" href="/logout">Выйти</a>
+		</div>
+		<div class="isLogin">
+			<span class="user-link">Егор Лосев <a href="/my" id="is_login">Radon</a>:</span>
+			<a id="js-mail_link" class="mail_link" href="/my/mail">Моя&nbsp;почта</a>
+			<a class="blogs_link" href="/blogs/my">Мои&nbsp;посты</a>
+			<a id="js-search_link" class="search_link" href="/search">Поиск</a>
+			<a class="settings_link" href="/my/settings">Настройки</a>
+			<a class="moderation_link" href="/objects/moderate/my">Модерация</a>
+			<a class="events_link" href="/events">Лента</a>
+			<a class="tags_link" href="/my/tags">Мои&nbsp;теги</a>
+			<a id="js-chat_link" class="chat_link" href="#">Чат</a>
+			
+		</div>
+			<div id="js-search-block" class="search-block hide">
+			<div class="wassup hide">
+				<form action="/search/objects" method="get">
+					<input type="text" name="query" class="query" autocomplete="off" />
+					<input type="hidden" name="page" value="1" />
+					<input type="submit" value="Найти" class="butSmall" />
+				</form>
+			</div>
+			<div class="find-in">
+				<a rel="objects" href="#">Объекты</a>
+				<a rel="blogs" href="#">Блоги</a>
+				<a rel="comments" href="#">Комментарии</a>
+				<a rel="users" href="#">Жители</a>
+			</div>
+			<div class="results"></div>
+		</div>
+		</div>
+</div>
+
+
+		<div class="bigmenu">
+			<a class="menu-logo"	title="urban3p project"		href="/">urban3p.ru</a>
+			<a class="menu-objects" title="Заброшенные объекты"	href="/objects">Объекты</a>
+			<a class="menu-users"	title="Жители сайта"		href="/users">Жители</a>
+			<a class="menu-library" title="Интересные статьи"	href="/library">Библиотека</a>
+			<a class="menu-blogs"	title="Коллективный блог"	href="/blogs">Блоги</a>
+		</div>
+		<div id="menu">
+	<div class="limitare">
+					<div class="menuEl">
+				<a  href="/category/institute">Учреждения</a>
+				<span class="quant">1721</span>
+				<span title="Учреждения за последние 7 дней" class="new">4</span>			</div>
+					<div class="menuEl">
+				<a  href="/category/military">Военное</a>
+				<span class="quant">1850</span>
+							</div>
+					<div class="menuEl">
+				<a  href="/category/factories">Заводы</a>
+				<span class="quant">2118</span>
+				<span title="Заводы за последние 7 дней" class="new">1</span>			</div>
+					<div class="menuEl">
+				<a  href="/category/constructions">Стройки</a>
+				<span class="quant">1374</span>
+							</div>
+					<div class="menuEl">
+				<a  href="/category/cities">Города</a>
+				<span class="quant">388</span>
+							</div>
+					<div class="menuEl">
+				<a  href="/category/culture">Культура</a>
+				<span class="quant">2017</span>
+							</div>
+					<div class="menuEl">
+				<a  href="/category/underground">Подземное</a>
+				<span class="quant">3039</span>
+							</div>
+					<div class="menuEl">
+				<a  href="/category/others">Остальное</a>
+				<span class="quant">4099</span>
+							</div>
+					<div class="menuEl">
+				<a class="vine" href="/category/archive">Архив</a>
+				<span class="quant">1105</span>
+							</div>
+		
+	</div>
+</div>
+				<div id="title"><div class="limitare">
+                                <big vocab="https://schema.org/" typeof="BreadcrumbList">
+        <em property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/blogs"><em property="name">Блоги</em></a><meta property="position" content="1"></em> →
+                                    <a href="/blogs/objects">Обсуждения объектов</a>
+                                        </big>
+    </div></div>
+		<div id="content">
+			<div class="limitare">
+				
+<div id="blogList" class="postPage">
+    <div class="hreview item">
+        <div class="messageBody">
+            <img class="userpic" src="/uploaded/db/avatar/Inc.jpg" alt="Inc"/>
+            <div class="heading">
+            <img class="pro lvl1" src="/img/db/reg/lvl1.png" alt=""/>                <i class="offline"></i>
+                <span class="user-link lvl1 reviewer">
+                     
+                    <a rel="author" class="" href="/user/Inc">Inc</a>
+                </span>
+            написал <span class="dtreviewed"><abbr class="dt value" title="2020-09-04T23:33:04+03:00">вчера в 23:33</abbr></span>
+                                        <span class="back">[ <a href="/blogs/objects">Назад</a> ]</span>
+                <span class="type"><span class="value-title" title="place"></span></span>
+                <span class="permalink"><span class="value-title" title="https://urban3p.ru/blogs/44765"></span></span>
+            </div>
+            <div class="blogText">
+                <h2 class="blogName summary">Вычислитель</h2>
+                <div class="text description">
+                                                    <img src="http://ipic.su/img/img7/fs/123.1599247432.jpg" alt="Image"/>Технический прогресс неумолим. Уходят в прошлое огромные машинные залы, вычислительные комплексы в десятки, а то и в сотни раз уменьшаются в размерах, тёплый свет вакуумных ламп <br />
+сменяется на холодный, цифровых индикаторов. Старые машины обречены доживать свой век в тёмных цехах, покрываясь толстым слоем пыли а то и плесени вперемешку с паутиной и обрушенной штукатуркой, постепенно превращаясь в металлолом. <br />
+Но иногда, некоторым из них, везёт больше и они продолжают служить людям в качестве учебных пособий или в военных целях там, где их молодые цифровые собратья выжить и выполнить поставленные задачи не в состоянии. Об одном виде вычислительных машин и пойдёт речь в этом посте. <br />
+ <br />
+<a name="cut"></a> <br />
+ <br />
+ <br />
+ <br />
+<img src="http://ipic.su/img/img7/fs/999.1599244294.jpg" alt="Image"/> <br />
+Аналоговый вычислительный комплекс АВК-3, выполненный на микросхемах средней степени интеграции, предназначен для моделирования динамических систем, решения обыкновенных линейных и нелинейных дифференциальных уравнений и других задач, сводимых к системам обыкновенных дифференциальных уравнений. <br />
+Выражаясь обычным человеческим языком, эта махина весом в 100 кг, умеет управлять например полётом ракеты, в режиме онлайн. Скажем летит себе эта ракета, никого не трогает и тут вдруг подул сильный вытер и она отклонившись от курса, упала на голову не Джону а Хуану. Конфуз! Чтобы этого не случилось и были созданы аналоговые вычислительные машины, которые управляли бы ракетой в ручном режиме. <br />
+С помощью наборного поля, той разноцветной панели что на фото, оператор может добавить или изменить задачу &quot;по ходу пьесы&quot; :) <br />
+АВК работает естественно в связке с ЕС ЭВМ. Точнее работал. Этот. От той ЭВМ остались рожки да ножки, тоесть отдельные блоки, которые свалили в кучу, лишив возможности запечатлеть АВМ во свей красе. <br />
+ <br />
+ <br />
+<img src="http://ipic.su/img/img7/fs/111.1599245369.jpg" alt="Image"/> <br />
+ <br />
+<img src="http://ipic.su/img/img7/fs/222.1599245679.jpg" alt="Image"/> <br />
+Неимоверными усилиями (потому что греметь было категорически не желательно) удалось освободить парочку машин чтобы хотяб можно было опустить клавиатуру. <br />
+<img src="http://ipic.su/img/img7/fs/991.1599245779.jpg" alt="Image"/> <br />
+Естественно, всю периферию подключаемую к этой машине, сложили тут же. К сажелению ЭВМ не суждено было выжить целиком в силу общеизвестных причин. Остатки и отдельные её компоненты попадались по всему залу в разной степени сохранности. <br />
+<img src="http://ipic.su/img/img7/fs/555.1599246315.jpg" alt="Image"/> <br />
+Из персоналок, не считая всяких буржуйских и китайских 90х годов, попались ДВК и &quot;Правец&quot; в перемешку с различными древнющими системами ввода и вычислений. <br />
+<img src="http://ipic.su/img/img7/fs/333.1599246796.jpg" alt="Image"/> <br />
+<img src="http://ipic.su/img/img7/fs/888.1599246920.jpg" alt="Image"/> <br />
+<img src="http://ipic.su/img/img7/fs/101.1599247003.jpg" alt="Image"/> <br />
+Естественно, кудаж без накопителей. Хотя этот сохранился в единственном экземпляре. И это радует. <br />
+<img src="http://ipic.su/img/img7/fs/123.1599247432.jpg" alt="Image"/> <br />
+Информации о этом накопителе не смог найти. <br />
+<img src="http://ipic.su/img/img7/fs/234.1599248769.jpg" alt="Image"/> <br />
+Ну и конечно же измериловка-диогностиловка, коей множество. <br />
+<img src="http://ipic.su/img/img7/fs/444.1599248968.jpg" alt="Image"/> <br />
+Эти комплексы выпускались на молдавском заводе &quot;Счётмаш&quot; естественно вплоть до развала СССР. В таком виде их остались единицы и единицы же ещё продолжают работать в некоторых учебных заведениях. Ещё один перспективный вид советской вычислительной техники перестал существовать. <br />
+Может быть кому-то будет интересно о них более подробно: <a href="https://computer-museum.ru/histussr/avk3.htm">computer-museum.ru/histussr/avk3.htm</a> <br />
+ <br />
+ <br />
+Типа фсё.
+                                </div>
+            </div>
+        </div>
+        <div class="blogBar clearfix">
+
+                                                                                <ul id="rating44765" class="rating ">
+                    <li class="pluse st"><a href="#" title="нравится" onclick="voting(44765, 1); return false;">&nbsp;</a></li>
+                    <li onclick="showBlogVoters(44765)" id="mp44765" class="points green">
+                    +13</li>
+                    <li class="minuse st"><a href="#" title="не нравится" onclick="voting(44765,0); return false;">&nbsp;</a></li>
+                </ul>
+            
+            <img src="/img/db/common/blank.gif" class="locked hide" id="locker44765" alt="Закрыт"/>
+
+                        <div class="buttons" id="buttons44765">
+                                <a onclick="addBlogBookmark(44765, this);return false;" href="#">
+                    <img src="/img/db/blog/plus_gray.gif" alt="+" title="в избранное"/>
+                </a>
+                                <img class="hide" src="/img/db/blog/plus_red.gif" alt="+" title="Пост добавлен в избранное"/>
+            </div>
+            
+            
+                        <span class="blogInfo">
+                                [ <a class="vine" onclick="blogsWithMe(44765, this);return false;" href="#">Следить за постом</a> ]
+                            </span>
+            
+            <div class="tags" id="js-blog_tags">
+                <div id="js-blog_main_tags" class="list">
+    <ul id="js-main_tags">
+                                    <li id="js-main_tag_6688"><a title="Inc" href="/blogs/by_tag/аппаратура">аппаратура</a>,</li>
+                                                <li id="js-main_tag_13002"><a title="Inc" href="/blogs/by_tag/ес эвм">ес эвм</a>,</li>
+                                                <li id="js-main_tag_13003"><a title="Inc" href="/blogs/by_tag/авк-33">авк-33</a>,</li>
+                                                <li id="js-main_tag_13004"><a title="Inc" href="/blogs/by_tag/вычислительная машина">вычислительная машина</a>,</li>
+                    
+                <li><a onclick="blogTags.toggleForm('#js-tags_panel');return false;" href="#">…</a></li>
+            </ul>
+</div>
+
+<div id="js-tags_panel" class="tags-panel hide">
+    <div class="my-tags">
+        <span>Мои теги:</span>
+        <ul id="js-personal_tags">
+                                                                                        
+        </ul>
+    </div>
+    <form action="" method="post" onsubmit="blogTags.add(44765, $('#js-tags_add').val());$('#js-tags_add').val('');return false;">
+        <div class="add-tags">
+            <span class="grey">Добавить:</span>
+            <input id="js-tags_add" type="text" class="text" name="tags" />
+            <a onclick="$(this).parents('form').submit();return false;" class="submit" href="#">+</a>
+        </div>
+    </form>
+</div>
+
+            </div>
+
+                        <div class="comments">
+                <a href="#writeCntnr" onclick="comments.reply()">Комментировать</a>
+            </div>
+                    </div>
+    </div>
+    <div id="c"></div>
+    <div id="commentContainer">
+                        <div id="comment856453" class="comment comment--level-0 messageBody">
+<img class="userpic" src="/uploaded/db/avatar/Alchemyst.jpg" alt="Alchemyst"/>
+<div class="heading">
+<img class="pro lvl1" src="/img/db/reg/lvl1.png" alt=""/><i class="offline"></i>
+<span class="user-link lvl1">Заводской Кот <a href="/user/Alchemyst">Alchemyst</a></span>
+написал <span class="dt" title="2020-09-05T07:10:48+03:00">сегодня в 07:10</span>
+</div>
+<div id="n" class="comment_new"></div>
+<div class="blogText">
+<div id="textComment856453" class="text">
+видел такое, долго с распада стояло
+</div>
+<div class="ordinary">
+<div class="commentVote">
+<a href="#" class="" title="Хороший комментарий" onclick="commentPlus('856453', this);return false;">+</a>
+<a href="#" class="" title="Плохой комментарий" onclick="commentMinus('856453', this);return false;">&minus;</a><span onclick="xajax_getCommentVoters('856453')">0</span>
+</div>
+<a class="ajax" href="#reply856453" onclick="comments.reply(856453, 'Alchemyst');return false;">Ответить</a> |
+<a class="ajax commentLink" href="/blogs/44765#comment856453">Ссылка</a>
+</div>
+</div>
+<div id="cntnr856453"></div></div>
+
+            </div>
+
+    <div class="rounded">
+        <div id="write_comment" style="padding:10px">
+                            <a href="#" class="ajax" onclick="comments.reply();return false;">Ответить на тему</a><span>, используйте, если отвечаете на тему, а не на комментарий.</span>
+                    </div>
+    </div>
+    <script type="text/javascript" src="/js/jquery/jquery.scrollTo.js"></script>
+        
+<script type="text/javascript">
+	function ctrlkey(event){
+		if (event.ctrlKey) {
+			switch (event.keyCode ? event.keyCode : event.which ? event.which : null) {
+				case 0xD || 0xA:
+				xajax_writeComment(xajax.getFormValues('commentWriteForm'));
+				break;
+			}
+		}
+	}
+//		$(function(){
+//			$('#writeCntnr').css({
+//					visibility: 'visible',
+//					height:		'auto',
+//					display:	'none'
+//				});
+//		});
+</script>
+
+<script type="text/javascript" src="/js/fdfWYG.js"></script>
+<div id="writeCntnr" class="hide currentCntnr">
+	<div class="blogText preview"><div class="text hide" id="preview"></div></div>
+	<div class="rounded">
+	<form action="" method="post" enctype="multipart/form-data" id="commentWriteForm" onsubmit="return false;">
+	<div class="writeMessage">
+		<h1>Написать комментарий:</h1>
+		<table summary="" class="editor">
+			<tr>
+				<td>Заголовок</td>
+				<td>
+					<input class="input--fluid" type="text" name="title" value=""/>
+				</td>
+			</tr>
+			<tr>
+				<td>Текст</td>
+				<td>
+
+	<div class="panel">
+		<a title="жирный" onclick="return fdfWYG.insertTagWithText(this, 'b');" href="#"><img alt="Ж" src="/img/bbcode/bold.gif" width="29" height="20"/></a>
+		<a title="курсив" onclick="return fdfWYG.insertTagWithText(this, 'i');" href="#"><img alt="К" src="/img/bbcode/italic.gif" width="29" height="20"/></a>
+		<a title="цитата" onclick="return fdfWYG.insertTagWithText(this, 'q');" href="#t"><img alt="цитата" src="/img/bbcode/quote.gif" width="29" height="20"/></a>
+		<div class="exp"></div>
+		<a title="житель" onclick="return fdfWYG.insertUser(this);" href="#"><img alt="житель" src="/img/bbcode/user.gif" width="29" height="20"/></a>
+		<a title="вставить изображение" onclick="return fdfWYG.insertImage(this);" href="#"><img alt="IMG" src="/img/bbcode/image.gif" width="29" height="20"/></a>
+		<a title="вставить видео" onclick="return fdfWYG.insertTagWithText(this, 'video');" href="#"><img alt="видео" src="/img/bbcode/video.gif" width="29" height="20"/></a>
+		<a title="вставить ссылку" onclick="return fdfWYG.insertLink(this);" href="#"><img alt="URL" src="/img/bbcode/link.gif" width="29" height="20"/></a>
+	</div>
+
+					<textarea class="textarea--fluid" onkeyup="ctrlkey(event)" name="text" id="message"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+											<input type="hidden" name="blog_id" value="44765"/>
+						<input id="parent" type="hidden" name="parent_id" value=""/>
+										<input type="hidden" name="submitted" value="1"/>
+					<input onclick="xajax_writeComment(xajax.getFormValues('commentWriteForm'));return false;" align="right" type="image" src="/img/db/blog/write.gif" value="Написать" class="write" />
+					<a id="previewComment" style="float: right; margin: 7px 30px;" class="ajax" href="#" onclick="previewComment();return false;">предпросмотр</a>
+				</td>
+			</tr>
+		</table>
+		<div class="clear"></div>
+	</div>
+	</form>
+	</div>
+</div>
+<script type="text/javascript" src="/js/jquery/jquery.timers.js"></script>
+
+    
+    <script type="text/javascript">
+        var $posts;
+        var $posts_r;
+        var k, i;
+        $.fn.reverse = [].reverse;
+        function setI() {
+            i = $('.comment_new').length;
+            if (i>0) $('#newMessages').removeClass('hidden');
+            else $('#newMessages').addClass('hidden');
+            k = 0;
+            $('#count').text(i)
+            $posts = $('.comment_new');
+            $posts_r = $('.comment_new').reverse();
+            if ($posts.length==0) {
+                $posts = $('.messageBody');
+                $posts_r = $('.messageBody').reverse();
+            }
+        }
+        function goToNewComment() {
+            if ( k < i ) {
+                comments.detectAnchor( '#'+($('.comment_new:eq('+k+')').parents('.messageBody').attr('id')) );
+                var body = $('html, body');
+                body.animate({
+                    scrollTop: $('.comment_new:eq('+k+')').offset().top - 200
+                }, 400);
+                k++;
+            }
+            if ((i-k)>0) $('#count').text(i-k);
+            else $('#newMessages').addClass('hidden');
+        }
+        function initUpDown(event) {
+            if (event && event.ctrlKey) {
+                var o = window.pageYOffset;
+                var $el;
+                if (event.keyCode==38) {
+                    //up
+                    $posts_r.each(function(){
+                        if (o > $(this).offset().top-50) {
+                            $el = $(this);
+                            return false;
+                        }
+                    });
+                } else if (event.keyCode==40) {
+                    //down
+                    $posts.each(function(){
+                        if (o < $(this).offset().top-100) {
+                            $el = $(this);
+                            return false;
+                        }
+                    });
+                }
+                if ($el && $el.length==1)
+                    $.scrollTo($el, 500, {offset:-50});
+            }
+        }
+        $(function(){
+            comments.detectAnchor();
+//            if (location.hash.indexOf('#')===0) {
+//                setTimeout(function() {
+//                    var sY = window.scrollY;
+//                    $.scrollTo(0);
+//                    $.scrollTo(sY-45);
+//                }, 100);
+//            }
+            $(document).bind('keydown', initUpDown);
+//            $('.tags').html(function(){
+//                return blog_tags_to_links(this.innerHTML);
+//            });
+            setI();
+        });
+        
+    </script>
+
+    <ul id="xsidebar" style="opacity: 0.5;">
+        <li class="mover">
+            <a href="#" onclick="togglePos(this); return false;">&larr;</a>
+        </li>
+        <li>
+            <div id="refresh-comments-button">
+                <a id="button" class="button" href="#" onclick="getComments();return false;" title="Обновить комментарии без перезагрузки страницы"></a>
+                <div id="newMessages" class="new-messages hidden">
+                    <div class="divider"></div>
+                    <a id="count" class="count" href="#" title="Перейти к следующему новому комментарию" onclick="goToNewComment(); return false;">&nbsp;</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+        <div id="up"></div>
+</div>
+<script type="text/javascript">
+    $(function(){
+        comments.init();
+    });
+</script>
+
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="limitare">
+				<dl>
+										<dt><a href="/my">Radon</a></dt>
+					<dd><a href="/my/settings">Настройки</a></dd>
+					<dd><a href="/my/mail">Почта</a></dd>
+					<dd><a href="/events">Лента</a></dd>
+									</dl>
+				<dl>
+					<dt>Объекты</dt>
+					<dd><a title="Объекты" href="/objects">Все объекты</a></dd>
+					<dd><a title="Поиск объектов" href="/search">Поиск</a></dd>
+					<dd><a title="Архив объектов" href="/category/archive">Архив</a></dd>
+				</dl>
+				<dl>
+					<dt>Блоги</dt>
+					<dd><a title="Написать пост" href="/blogs/write">Написать</a></dd>
+					<dd><a title="Новые посты" href="/blogs/new">Новые</a></dd>
+					<dd><a title="Актуальные посты" href="/blogs/actual">Актуальные</a></dd>
+					<dd><a title="Популярные посты" href="/blogs/popular">Популярные</a></dd>
+				</dl>
+				<dl>
+					<dt>Инфо</dt>
+					<dd><a href="https://wiki.urban3p.ru/">О сайте</a></dd>
+					<dd><a title="Правила сайта" href="https://wiki.urban3p.ru/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D1%81%D0%B0%D0%B9%D1%82%D0%B0">Правила</a></dd>
+					<dd><a title="Справочный раздел" href="https://wiki.urban3p.ru/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F%3A%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB">Помощь</a></dd>
+					<dd><a title="Пользовательское соглашение" href="https://wiki.urban3p.ru/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B5_%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D0%B5">Соглашение</a></dd>
+					<dd><a href="/info/statistic">Статистика</a></dd>
+				</dl>
+				<dl>
+					<dt>Жители</dt>
+					<dd><a title="Жители" href="/users">Все жители</a></dd>
+					<dd><a title="Жители онлайн" href="/users/online">Онлайн</a></dd>
+					<dd><a title="Заблокированные жители" href="/users/banned">Изгои</a></dd>
+					<dd><a title="Список мапперов" href="https://wiki.urban3p.ru/%D0%9C%D0%B0%D0%BF%D0%BF%D0%B5%D1%80">Мапперы</a></dd>
+				</dl>
+				<div class="copyright">
+					Urban3p.ru &mdash; это интернет-площадка для встреч единомышленников, чтобы делиться своим опытом, отчётами и фотографиями. Это не клуб или организация и не имеет представителей, членов и физического представительства. Этот веб-сайт не оправдывает и не поощряет нарушение закона и небезопасное поведение. Все действия остаются за человеком. <br />
+					Все изображения © 2008&ndash;2020 фотографам. <br />
+					<a href="/info/contacts">Контактная информация</a>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-2316657-7']);
+			_gaq.push(['_setDomainName', 'urban3p.ru']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+	</body>
+</html>
